@@ -1,0 +1,13 @@
+<h1>Current Inventory</h1>
+<p *ngIf="inventory.length==0">There are no books in inventory.</p>
+
+<div *ngFor="let book of inventory; trackBy: trackByISBN"
+    [ngClass]="{'featured-item': book.featured}">
+    <h3>{{book.year}} {{book.topic}}, {{book.author}}</h3>
+    <p *ngIf="book.featured">Featured book of the month!</p>
+    <p>ISBN: {{book.ISBN}}</p>
+    <p> ${{book.price}}</p>
+    <p>
+        <button (click)="deletePublication(book)">Delete</button>
+    </p>
+</div>
