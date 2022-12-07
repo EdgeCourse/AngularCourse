@@ -1,0 +1,9 @@
+<h1>Single Page Application</h1>
+<a [routerLink]="['/home']" [routerLinkActive]="['active']">Home</a>&nbsp;
+<a [routerLink]="['/contact']" [routerLinkActive]="['active']">Contact</a>&nbsp;
+<a [href]="['/about']" [routerLinkActive]="['active']">About</a>
+<br>
+<a href="http://www.google.com">Google</a>
+<div id=main>
+  <router-outlet></router-outlet>
+</div>
