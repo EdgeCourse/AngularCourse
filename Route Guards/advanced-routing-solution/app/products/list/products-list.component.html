@@ -1,0 +1,8 @@
+<div>
+<h3>Products List</h3>
+<ul>
+  <li *ngFor="let item of products; let id = index; " (click)="showDetail(id)">
+  {{"product" + " " + (id + 1)}}
+  </li>
+</ul> 
+</div>
