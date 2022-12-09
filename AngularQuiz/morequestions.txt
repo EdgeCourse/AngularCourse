@@ -1,0 +1,23 @@
+What is the decorator used for configuring your module class?
+
+Which decorator allows defines the pipe name? 
+
+Which character is used for chaining multiple pipes?
+
+Is Router part of @angular/core?
+
+What type of data binding does Angular support?
+
+How do you create a service?
+
+Which of the following are true about services?
+
+What are some benefits over Angular v other frameworks?
+
+Which is the correct syntax for writing an expression?
+
+Why is a structural directive better than a hide/show in CSS?
+
+What does an attribute directive do?
+
+What is the selector when making a custom directive?
