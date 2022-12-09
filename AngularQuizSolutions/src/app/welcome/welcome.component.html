@@ -1,0 +1,11 @@
+<div class="container bg-light py-5">
+ 
+    <p class="col-md-8 fs-4">This quiz has 20 questions. A correct answer is 5 points, and an incorrect answer is 0 points.
+        You have 30 seconds to answer each question. Refereshing the page will reset the quiz.
+
+    <div class="name col-md-4 my-3">
+        <label for="name">Enter your name:</label>
+        <input #name type="text" class="form-control" id="name">
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start the Quiz!!</button>
+</div>
